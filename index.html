@@ -203,7 +203,7 @@
       transform: translateY(0);
     }
 
-    /* QR Output */
+  
     .qr-section {
       margin-top: 2rem;
       display: none;
@@ -225,7 +225,7 @@
       position: relative;
     }
 
-    /* Corner accents */
+    
     .qr-frame::before,
     .qr-frame::after {
       content: '';
@@ -362,8 +362,8 @@
     </div>
 
     <footer>
-      Kein Server · Alles lokal · Open Source &nbsp;|&nbsp;
-      <a href="https://github.com" target="_blank">GitHub Pages</a>
+      Free  QR-Code-Generator · Alles lokal · Open Source &nbsp;|&nbsp;
+      <a href="" target="_blank">Jan</a>
     </footer>
   </div>
 
@@ -396,7 +396,6 @@
         correctLevel: QRCode.CorrectLevel.H
       });
 
-      // Show URL display
       const display = document.getElementById('urlDisplay');
       const short = input.length > 50 ? input.slice(0, 47) + '...' : input;
       display.innerHTML = `<span>${short}</span>`;
